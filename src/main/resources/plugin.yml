@@ -1,0 +1,13 @@
+name: BerryChat
+version: '${project.version}'
+main: com.possiest.berrychat.BerryChat
+api-version: 1.19
+softdepend: [PlaceholderAPI]
+commands:
+  berry:
+    description: BerryChat main command
+    usage: /berry <subcommand>
+    aliases: [bc]
+    permission: berry.use
+    permission-message: You do not have permission to use BerryChat Administration Commands!
+    tab-complete: 0

@@ -1,0 +1,9 @@
+#BerryChat v1.0.1
+format: "{display_name} &#D60247» &#F2F2F2{message}"
+joinmsg: "&#6A6177» &#D60247{display_name} &#F2F2F2has joined the server."
+quitmsg: "&#6A6177» &#D60247{display_name} &#F2F2F2has left the server."
+
+#Use {display_name} to get the player's display name
+#Use {message} to get the player's message
+#When using hex colors, use &# before the color code
+#Example: &#D60247
